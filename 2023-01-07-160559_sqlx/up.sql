@@ -40,12 +40,6 @@ INSERT INTO public._sqlx_migrations VALUES (20210725221543, 'player claims', '20
 INSERT INTO public._sqlx_migrations VALUES (20210726174613, 'nation ranking', '2023-01-07 13:30:03.613816+00', true, '\x5c35046e56dbd7f913f29bb098eb0004be133273565aed1b0e5144837908f9f213df74e3236672a5e90c661645ca6fb9', 2258194);
 INSERT INTO public._sqlx_migrations VALUES (20210825182933, 'new claim system', '2023-01-07 13:30:03.616775+00', true, '\xe0db241b57e88b76ba15a1ee62d4dc434569499e6acc2d1c10c5b0218ac7215da77273230d6f0095d347799bfe5ca5a1', 3219758);
 INSERT INTO public._sqlx_migrations VALUES (20210903174349, 'subdivision ranking', '2023-01-07 13:30:03.620676+00', true, '\xe97e76554665cfbe2c6f532ec9536e3000767e8a4d4330ec7b725ea6075e3fb99da062ec8587aa1a625a0c88444766e2', 1231693);
-INSERT INTO public._sqlx_migrations VALUES (20220323105850, 'member add email column', '2023-01-07 13:30:03.622549+00', true, '\x3381d9f9b7d7917aca6d4df31bb85826a4b010c86e0420080e18d3d61b419c3d259dfc17b24a011724940a99e9af5d25', 4568431);
-INSERT INTO public._sqlx_migrations VALUES (20220324104659, 'lock submissions', '2023-01-07 13:30:03.627768+00', true, '\xeee564141dfdf3dd9d3a2e83a562b7f03d1b1bc2edb8140f5f877d397ac00fa2c26f80bf5ea620381992d43c3dc22836', 851796);
-INSERT INTO public._sqlx_migrations VALUES (20220412171531, 'public notes', '2023-01-07 13:30:03.629297+00', true, '\x64253926a85b1c5df5d7ea050f47b3e83c301be424b10a9848b8abf3799c649cd9af4fbbc134bf2973565cfb04675b33', 924438);
-INSERT INTO public._sqlx_migrations VALUES (20220601192100, 'extended list buff', '2023-01-07 13:30:03.630915+00', true, '\xdd863692d612086f818cb06ab1892ddf94e3f9da4e31c9480d48deb2a9750002d12e2f750dc19de7ab1f2fd30f8f5fdd', 987670);
-INSERT INTO public._sqlx_migrations VALUES (20220805215800, 'fix youtube channel audit', '2023-01-07 13:30:03.632516+00', true, '\x322906c0fcc40ca5541ec518b2928bb3bdca7394ee4844403c642dba07a0676a828f4f260ac5dfbf14ba651ed6e4be1e', 766651);
-INSERT INTO public._sqlx_migrations VALUES (20221009140916, 'thumbnails', '2023-01-07 13:30:03.633867+00', true, '\xb00dc8dd9aaced8e844b7105e241b3bb5a96d5cf39137782cc5fcf898ef99ba3a00751b11f05a2dd70561ce812874578', 1680974);
 
 ALTER TABLE ONLY public._sqlx_migrations
     ADD CONSTRAINT _sqlx_migrations_pkey PRIMARY KEY (version);
